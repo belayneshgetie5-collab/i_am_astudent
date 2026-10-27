@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "SAAMEP (Chrome, port 5000)",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "chrome",
+      "args": ["--web-port=5000"]
+    },
+    {
+      "name": "SAAMEP (Android phone)",
+      "request": "launch",
+      "type": "dart"
+    }
+  ]
+}
